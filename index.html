@@ -199,7 +199,7 @@
     const feedback = document.getElementById('feedback');
 
     // Define images for happy and sad states
-    const happyCrocodileImage = "images/Crocodile.gif"; // path to happy crocodile image
+    const happyCrocodileImage = "images/crocodile.gif"; // path to happy crocodile image
     const sadCrocodileImage = "images/sad-crocodile.jpg"; // path to sad crocodile image
 
     // Swamp intro: ripple animation then show main content.
@@ -247,7 +247,7 @@ noBtn.addEventListener('click', () => {
       noBtn.style.cursor = 'pointer';
 
       // Reset crocodile image to happy.
-      crocodile.gif = happyCrocodileImage;
+      crocodileImg.src = happyCrocodileImage;
 
       // Hide the buttons.
       document.querySelector('.buttons').style.display = 'none';
